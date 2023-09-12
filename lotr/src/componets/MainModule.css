@@ -1,0 +1,34 @@
+.wrapheader {
+    background-image: url('../../public/Rivendell.jpg');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .wraptext {
+    max-width: 1250px;
+    height: 725px;
+    margin-top: 170px;
+    margin: 150px auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+  }
+  
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .subtext {
+    margin-top: 60px;
+  }
+  
+  .title {
+    margin-top: 25px;
+    width: 900px;
+    height: 225px;
+  }

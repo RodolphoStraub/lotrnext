@@ -1,0 +1,23 @@
+.wrapcharacters {
+    background-image: url('../../public/Shire.jpg');
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+  
+  .wrapcards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1550px;
+    height: auto;
+    max-height: auto;
+    margin-top: 170px;
+    margin: 150px auto;
+    background-color: rgba(63, 73, 56, 0.8);
+    border-radius: 20px;
+    border: 2px solid;
+  }
