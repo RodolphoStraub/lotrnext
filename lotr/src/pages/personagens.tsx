@@ -14,6 +14,7 @@ const personagens = (props: Props) => {
                 key={data.id}
                 imageUrl={data.imageUrl}
                 title={data.title}
+                text={data.text}
               />
             ))}
           </div>

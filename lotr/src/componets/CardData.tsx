@@ -3,6 +3,7 @@ export const CardsData = [
       id: 1,
       imageUrl: "./Aragorn.jpg",
       title: "Aragorn",
+      text: "popopo"
     },
   
     {
