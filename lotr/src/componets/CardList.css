@@ -37,3 +37,15 @@
     align-items: center;
     margin-top: 12px;
   }
+
+  Button{
+   background-color: transparent; 
+  }
+
+  .allbg{
+    display: flex;
+    flex-direction: column;
+    width: 68vw;
+    height: 80vh;
+    background-color: red;
+  }

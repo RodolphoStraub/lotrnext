@@ -6,7 +6,8 @@ type Props = {}
 
 const CardList = (props) => {
     return (
-<Popover>
+<Popover 
+placement="left-start">
       <PopoverTrigger>
         <Button>
         <div className="cards">
@@ -18,9 +19,11 @@ const CardList = (props) => {
         </Button>
       </PopoverTrigger>
       <PopoverContent>
+        <div className="allbg">
         <div className="px-1 py-2">
         <img className="foto" src={props.imageUrl} />
         <p>{props.text}</p>
+        </div>
         </div>
       </PopoverContent>
     </Popover>
